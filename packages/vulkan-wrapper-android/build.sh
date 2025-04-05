@@ -23,7 +23,7 @@ TERMUX_PKG_EXTRA_CONFIGURE_ARGS="
 -Dgallium-drivers=
 -Dxmlconfig=disabled
 -Dvulkan-drivers=wrapper
--Db_ndebug=true
+-Db_ndebug=false
 "
 
 termux_step_post_get_source() {
